@@ -58,7 +58,7 @@ export default function Testimonials() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">What Our Customers Say</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what our satisfied customers have to say about our roofing services.
+            Don&apos;t just take our word for it. Here&apos;s what our satisfied customers have to say about our roofing services.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export default function Testimonials() {
                     ))}
                   </div>
 
-                    <blockquote className="text-lg italic mb-6">"{testimonial.text}"</blockquote>
+                    <blockquote className="text-lg italic mb-6">&quot;{testimonial.text}&quot;</blockquote>
 
 
                   <div>

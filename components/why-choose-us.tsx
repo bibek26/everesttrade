@@ -40,7 +40,7 @@ export default function WhyChooseUs() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Why Choose Summit Roofing</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            We're committed to providing exceptional roofing services that stand out from the competition.
+            We&apos;re committed to providing exceptional roofing services that stand out from the competition.
           </p>
         </div>
 
