@@ -13,28 +13,28 @@ export default function Testimonials() {
       location: "Campbelltown, Australia",
       image: "/images/michael.jpg",
       rating: 5,
-      text: "Summit Roofing replaced our entire roof after storm damage. They worked directly with our insurance and made the process incredibly easy. The quality of work was outstanding and they cleaned up perfectly after the job.",
+      text: "Everest Trade Services replaced our entire roof after storm damage. They worked directly with our insurance and made the process incredibly easy. The quality of work was outstanding and they cleaned up perfectly after the job.",
     },
     {
       name: "Sarah Williams",
       location: "Lidcombe, Australia",
       image: "/images/sarah.jpeg",
       rating: 5,
-      text: "We had a leak during a heavy rainstorm and Summit Roofing came out for emergency repairs the same day. They were professional, efficient, and fixed the problem permanently. Highly recommend their services!",
+      text: "We had a leak during a heavy rainstorm and Everest Trade Services came out for emergency repairs the same day. They were professional, efficient, and fixed the problem permanently. Highly recommend their services!",
     },
     {
       name: "David Thompson",
       location: "NewCastle, Australia",
       image: "/images/david.jpeg",
       rating:4 ,
-      text: "As a property manager, I've worked with many roofing companies over the years. Summit Roofing stands out for their reliability, quality work, and excellent communication. They're now our go-to roofing contractor.",
+      text: "As a property manager, I've worked with many roofing companies over the years. Everest Trade Services stands out for their reliability, quality work, and excellent communication. They're now our go-to roofing contractor.",
     },
     {
       name: "Jennifer Martinez",
       location: "Wollongong, Australia",
       image: "/images/jennifer.jpg",
       rating: 5,
-      text: "Summit Roofing installed a new roof on our home last year. The team was professional, the work was completed on time and on budget, and the roof looks fantastic. Great experience from start to finish.",
+      text: "Everest Trade Services installed a new roof on our home last year. The team was professional, the work was completed on time and on budget, and the roof looks fantastic. Great experience from start to finish.",
     },
   ]
 
