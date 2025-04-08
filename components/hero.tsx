@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef, useEffect } from "react"
+import Link from "next/link"
 
 export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -44,12 +45,11 @@ export default function Hero() {
           Quality craftsmanship, premium materials, and exceptional service for all your roofing needs.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
+        <Link href="#contact">
           <button className="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md font-medium">
             Contact Us Now
           </button>
-          <button className="bg-white hover:bg-gray-100 text-black px-6 py-3 rounded-md font-medium">
-            Our Services
-          </button>
+        </Link>
         </div>
       </div>
     </section>

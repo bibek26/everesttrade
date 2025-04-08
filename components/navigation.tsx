@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -16,6 +17,13 @@ export default function Navigation() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
+          <Image 
+            src="/images/icon.png" 
+            alt="Everest Trade Services Logo"
+            width={32}
+            height={32}
+            className="h-14 w-14"
+          />
           <span className="text-xl font-bold">Everest Trade Services</span>
         </Link>
 
@@ -39,7 +47,9 @@ export default function Navigation() {
           <Link href="#portfolio" className="text-sm font-medium transition-colors hover:text-primary">
             Portfolio
           </Link>
+          <Link href="#contact">
           <Button size="sm">Get a Quote</Button>
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -94,9 +104,11 @@ export default function Navigation() {
             >
               Portfolio
             </Link>
-            <Button size="sm" className="w-full" onClick={() => setIsMenuOpen(false)}>
-              Get a Quote
-            </Button>
+            <Link href="#contact">
+              <Button size="sm" className="w-full" onClick={() => setIsMenuOpen(false)}>
+                Get a Quote
+              </Button>
+            </Link>
           </div>
         </div>
       )}
