@@ -38,7 +38,7 @@ export default function WhyChooseUs() {
     <section className="py-16 bg-primary/5">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Why Choose Summit Roofing</h2>
+          <h2 className="text-3xl font-bold mb-4">Why Choose Everest Trade Services</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             We&apos;re committed to providing exceptional roofing services that stand out from the competition.
           </p>
